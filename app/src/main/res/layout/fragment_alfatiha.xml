@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#011241"
+    tools:context=".AlfatihaFragment">
+
+    <LinearLayout
+        android:id="@+id/Alfatihah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ta'awudz"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="أَعُوذُ بِاللَّهِ السَّمِيعِ الْعَلِيمِ، مِنَ الشَّيْطَانِ الرَّجِيمِ"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textColor="#ffff"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artinya: “Aku berlindung kepada Allah Yang Maha Mendengar lagi Maha  Mengetahui dari syaithan yang terkutuk."
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15sp"
+            android:textColor="#ffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Surat Al Fatihah"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="بِسْمِ اللهِ الرَّحْمـَنِ الرَّحِيمِ , الْحَمْدُ للهِ رَبِّ الْعَالَمِينَ, الرَّحْمـنِ الرَّحِيمِ, مَـلِكِ يَوْمِ الدِّينِ, إِيَّاكَ نَعْبُدُ وإِيَّاكَ نَسْتَعِينُ, اهدِنَــــا الصِّرَاطَ المُستَقِيمَ, صِرَاطَ الَّذِينَ أَنعَمتَ عَلَيهِمْ غَيرِ المَغضُوبِ عَلَيهِمْ وَلاَ الضَّالِّينَ"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textColor="#ffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artinya: “Dengan menyebut nama Allah yang Maha Pemurah lagi Maha Penyayang. Segala puji bagi Allah, Tuhan semesta alam. Maha Pemurah lagi Maha Penyayang. yang menguasai di hari Pembalasan. hanya Engkaulah yang Kami sembah , dan hanya kepada Engkaulah Kami meminta pertolongan. Tunjukilah Kami jalan yang lurus, (yaitu) jalan orang-orang yang telah Engkau beri nikmat kepada mereka; bukan (jalan) mereka yang dimurkai dan bukan (pula jalan) mereka yang sesat.” (QS. Al Fatihah (1): 1-7)"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15sp"
+            android:textColor="#ffff"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

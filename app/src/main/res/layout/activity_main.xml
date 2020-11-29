@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#011241"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Al - Ma'tsurat"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_pagi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/illustrasi" />
+
+    <ImageView
+        android:id="@+id/illustrasi"
+        android:layout_width="240dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_illustrasi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_pagi"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/tombol1"
+        android:text="Dzikir Pagi"
+        android:textAllCaps="false"
+        android:textColor="#52425B"
+        android:textSize="20dp"
+        app:layout_constraintCircleRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_judul" />
+
+    <Button
+        android:id="@+id/btn_petang"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/tombol1"
+        android:text="Dzikir Petang"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textColor="#52425B"
+        app:layout_constraintCircleRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pagi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Versi 1.1.0"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        app:layout_constraintTop_toTopOf="@id/btn_petang"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="120dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="680dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

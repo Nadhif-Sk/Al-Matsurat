@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#011241"
+    tools:context=".AwalAlbaqoroh">
+
+    <LinearLayout
+        android:id="@+id/Awal_albaqoroh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Surah Al Baqoroh 1 - 5"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الم (1) ذَلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ (2) الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ (3) وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآَخِرَةِ هُمْ يُوقِنُونَ (4) أُولَئِكَ عَلَى هُدًى مِنْ رَبِّهِمْ وَأُولَئِكَ هُمُ الْمُفْلِحُونَ "
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textColor="#ffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artinya: “(1)Alif Laam Miim.(2) Kitab (Al Qur’an) ini tidak ada keraguan padanya;petunjuk bagi mereka yang bertaqwa,(3) (yaitu) mereka yang berimankepada yang gaib, yang mendirikanshalat dan menafkahkan sebahagian rezki yang Kami anugerahkan kepadamereka,(4) dan mereka yang berimankepada Kitab (Al Qur’an) yang telahditurunkan kepadamu dan Kitab-kitab yang telah diturunkan sebelummu, serta mereka yakin akan adanya (kehidupan) akhirat.(5) Mereka itulahyang tetap mendapat petunjuk dariTuhan mereka, dan merekalah orang-orang yang beruntung"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15sp"
+            android:textColor="#ffff"/>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
